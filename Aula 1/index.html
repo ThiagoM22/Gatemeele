@@ -37,8 +37,8 @@
 </br>
 </br>
 
-    <input type="text">
-    <input type="button" value =">">
+    <input placeholder="Nome" type = "text">
+    <button style = background:red;>></button>
 
 
 </br>
@@ -49,12 +49,14 @@
     <button onclick=alerta(); style = "background: rgb(84, 3, 3);">Alerta!</button>
     <h2>Altere a cor do fundo do site em uma das cores abaixo</h2>
     <p>
-        <button onclick=vermelho(); style = background:red ;>Vermelho</button>
-        <button onclick=verde(); style = background:green;>Verde</button>
-        <button onclick=preto(); style=background:black;>Preto</button> <br><br>
-        <button onclick=original()>Original</button>
-        <br>
-        <button onclick=flashbang()>flashbang</button>
+        <button onclick="escolha('red')" style = background:red>Vermelho</button>
+        <button onclick="escolha('green')"; style = background:green;>Verde</button>
+        <button onclick="escolha('black')"; style=background:black;>Preto</button> <br><br>
+        <button onclick="original('#46a2da')">Original</button>
+        
+        <button onclick="flashbang('white')">flashbang</button>
+        <button onclick=escolha()>Escolha</button>
+
 
     </p>
 
@@ -71,25 +73,37 @@
        
         alert("Não funciona");
     }
-    function vermelho(){
-        document.getElementsByTagName("body")[0].style.background = "#Ff0000";
-    }
-    function verde(){
-        document.getElementsByTagName("body")[0].style.background = "#008000";
-    }
-    function preto(){
-        document.getElementsByTagName("body")[0].style.background = "#000000";
+    // function vermelho(){
+    //     document.getElementsByTagName("body")[0].style.background = "#Ff0000";
+    // }
+    // function verde(){
+    //     document.getElementsByTagName("body")[0].style.background = "#008000";
+    // }
+    // function preto(){
+    //     document.getElementsByTagName("body")[0].style.background = "#000000";
 
-    }
-    function original(){
-        document.getElementsByTagName("body")[0].style.background = "#46a2da";
+    // }
+    // function original(){
+    //     document.getElementsByTagName("body")[0].style.background = "#46a2da";
 
-    }
-    function flashbang(){
-        document.getElementsByTagName("body")[0].style.background = "#fef6eb";
-    }
+    // }
 
-   
+    // flashbang = () => {
+    //   document.getElementsByTagName("body")[0].style.background = "#fef6eb";
+
+    // }
+    escolha = (cor) =>{
+      if (cor !==""){
+      document.getElementsByTagName("body")[0].style.background = cor;
+      }
+      if (cor !== null){
+    document.getElementsByTagName("body")[0].style.background = prompt(`Escolha uma cor em inglês:`);
+
+      }
+
+}
+
+    
 // <p>document.getElementsByTagName("body")[0].style.background = "#f286ab" </p>
   </script>
 </html>
