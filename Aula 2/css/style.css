@@ -1,0 +1,57 @@
+body {
+  /* background: url(../img/shrek-shrek-meme.gif) no-repeat top/cover; */
+  background: #50727B;
+  text-align: center;
+
+
+}
+button{
+  border-radius: 10px;
+  color:#EEEEEE;
+  font-family:monospace;
+  text-align: center ;
+  border-width: 8px;
+  border-style:outset;
+  font-size: larger;
+}
+a{
+  text-decoration: none;
+  color: #5C8374
+}
+/* #Navegar{ para id
+color: ;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+.Navegar{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.fundoLink{
+  background: #35374B;
+}
+img{
+  border-radius: 300px;
+}
+.centro{
+  text-align: center;
+}
+h1.centro{
+  margin-top: 0;
+  padding: 10px;
+}
+h1 a{
+  /* background: white;
+  border-radius: 30px 0px;
+  /* padding: 5px; */
+  border: solid 1px #5C8374;
+  box-shadow: 4px 3px 4px #5C8374 ; 
+
+}
+/* hover-quando o mouse passar por cima */
+h1 a:hover{
+  background: #B6C4B6;
+}
+button:hover{
+  cursor: pointer;
+  
+}
