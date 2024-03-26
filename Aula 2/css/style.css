@@ -1,6 +1,6 @@
 body {
   /* background: url(../img/shrek-shrek-meme.gif) no-repeat top/cover; */
-  background: #50727B;
+  background: #31363F;
   text-align: center;
 
 
@@ -27,7 +27,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
 }
 .fundoLink{
-  background: #35374B;
+  background: #222831;
 }
 img{
   border-radius: 300px;
@@ -56,9 +56,16 @@ button:hover{
   
 }
 .Links{
-  background:  #B6C4B6;
+  background:  #222831;
   
 }
 .Links a:hover{
 color: #35374B;
 }
+footer{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  }

@@ -26,7 +26,7 @@
         /><br />
         <textarea
           name=""
-          id=""
+          id="areaTexto"
           cols="40"
           rows="10"
           placeholder="Mensagem"
@@ -34,12 +34,21 @@
         ></textarea>
         <!-- minlength - quantidade de caracteres para aceitar -->
       </p>
-      <input
-        type="button"
-        onclick="console.log(`${document.getElementById('Nome').value}`);"
-        value="Enviar"
-      />
+      <input type="button" onclick="enviar()" value="Enviar" />
     </form>
-
+    <span id="resposta"></span>
+    <footer>
+      <h3 class="Links">
+        <a
+          href="https://www.facebook.com/people/Thiago-Mazzi/pfbid0n6MxMvHRyDq3ty114S1BvUYpZ3Wn1ZT2wgaVxrtmbLFY7S5eDrXMVanNGvGj4XfWl/"
+          target="_blank"
+          >Tome |
+        </a>
+        <a href="https://www.google.com/" target="_blank">Google |</a>
+        <a href="https://github.com/" target="_blank">GitHub |</a>
+        <a href="https://twitter.com/x" target="_blank">Twitter</a>
+      </h3>
+    </footer>
   </body>
+  <script src="./js/script.js"></script>
 </html>
