@@ -129,7 +129,8 @@ body {
   padding: 24px;
 }
 #footer  a{
-  text-decoration: non;
+  text-decoration: none;
+  color:#fff
 }
 
 @keyframes slide-out{
