@@ -7,11 +7,12 @@ trocar = () => {
   const isLihgt = document.documentElement.classList.contains("light");
 
   const imagem = isLihgt
-    ? "./img/20171014_102351.jpg"
-    : "./img/20180921_213152.jpg";
+    ? "./img/Thaigo Mazzi.jpg"
+    : "./img/Thaigomazzi2.jpg";
   document.querySelector("#profile img").setAttribute("src", imagem);
   
-  const trocalt = isLihgt ?
+  const trocalt = isLihgt ?"Homem de óculos redondo com camiseta cinza cabelo meio grande olhando para a camera." : "Homem de óculos redondo com camiseta cinza cabelo meio grande olhando para a camera, em uma pose diferente.."
+  document.querySelector("#profile img").setAttribute("alt", trocalt);
 };
 // modificar as cores?imagens de fundo e botões
 // deixar todos os links imagens
