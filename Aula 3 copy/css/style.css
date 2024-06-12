@@ -12,7 +12,7 @@
   --stroke-color: rgba(0, 185, 252, 0.5);
   --surface-color: rgba(90, 180, 236, 0.1);
   --surface-color-hover: rgba(46, 206, 250, 0.2);
-  --switch-btn-url: #fff url(../img/MoonStars.svg);
+  --switch-btn-url: #c1f3f9 url(../img/MoonStars.svg);
   --highlight-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -30,7 +30,7 @@ body {
   --stroke-color: rgba(1, 94, 131, 0.5);
   --surface-color: rgba(0, 85, 176, 0.1);
   --surface-color-hover: rgba(0, 85, 176, 0.2);
-  --switch-btn-url: #000 url(../img/Vectorsolbra.svg);
+  --switch-btn-url: #043891 url(../img/Vectorsolbra.svg);
   --highlight-color: rgba(0, 85, 176, 0.3);
 }
 .light #button button {
